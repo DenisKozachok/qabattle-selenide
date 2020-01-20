@@ -1,12 +1,12 @@
 {
-  "uid" : "536a626576ed376f",
+  "uid" : "128ca07be9b13b35",
   "name" : "test",
   "fullName" : "com.test.qabattle.FirstTest.test",
   "historyId" : "854110b638328ccf771e0ab42e204b5b",
   "time" : {
-    "start" : 1579543414276,
-    "stop" : 1579543419351,
-    "duration" : 5075
+    "start" : 1579543798267,
+    "stop" : 1579543802881,
+    "duration" : 4614
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1579543414148,
-      "stop" : 1579543414188,
-      "duration" : 40
+      "start" : 1579543798126,
+      "stop" : 1579543798155,
+      "duration" : 29
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "$(open) http://127.0.0.1:8080/",
       "time" : {
-        "start" : 1579543414333,
-        "stop" : 1579543418731,
-        "duration" : 4398
+        "start" : 1579543798305,
+        "stop" : 1579543802287,
+        "duration" : 3982
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,9 +47,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "a576693d602d6c5",
+      "uid" : "8afdc0943efb5310",
       "name" : "Screenshot",
-      "source" : "a576693d602d6c5.png",
+      "source" : "8afdc0943efb5310.png",
       "type" : "image/png",
       "size" : 9764
     } ],
@@ -80,10 +80,10 @@
     "value" : "com.test.qabattle.FirstTest"
   }, {
     "name" : "host",
-    "value" : "fv-az12"
+    "value" : "fv-az60"
   }, {
     "name" : "thread",
-    "value" : "4166@fv-az12.main(1)"
+    "value" : "4378@fv-az60.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -102,8 +102,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "536a626576ed376f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579543414276,
+          "stop" : 1579543419351,
+          "duration" : 5075
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "536a626576ed376f.json",
+  "source" : "128ca07be9b13b35.json",
   "parameterValues" : [ ]
 }

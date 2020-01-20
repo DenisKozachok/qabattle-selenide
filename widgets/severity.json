@@ -1,10 +1,10 @@
 [ {
-  "uid" : "536a626576ed376f",
+  "uid" : "128ca07be9b13b35",
   "name" : "test",
   "time" : {
-    "start" : 1579543414276,
-    "stop" : 1579543419351,
-    "duration" : 5075
+    "start" : 1579543798267,
+    "stop" : 1579543802881,
+    "duration" : 4614
   },
   "status" : "passed",
   "severity" : "normal"

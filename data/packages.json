@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.test.qabattle.FirstTest",
+    "children" : [ {
+      "name" : "test",
+      "uid" : "536a626576ed376f",
+      "parentUid" : "68519d5f06477304be6f1f4f261aaefc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579543414276,
+        "stop" : 1579543419351,
+        "duration" : 5075
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.test.qabattle.FirstTest"
+  } ],
+  "name" : "packages"
+}

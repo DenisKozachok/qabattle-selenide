@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#registrationContainer\"}",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "9854e6480f0052d3",
+        "parentUid" : "90503eebc8b4344828139ce1d8aa9cfc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579544333201,
+          "stop" : 1579544341850,
+          "duration" : 8649
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90503eebc8b4344828139ce1d8aa9cfc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

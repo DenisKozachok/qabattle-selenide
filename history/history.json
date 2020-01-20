@@ -1,14 +1,23 @@
 {
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9854e6480f0052d3",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#registrationContainer\"}",
+      "time" : {
+        "start" : 1579544333201,
+        "stop" : 1579544341850,
+        "duration" : 8649
+      }
+    }, {
       "uid" : "128ca07be9b13b35",
       "status" : "passed",
       "time" : {

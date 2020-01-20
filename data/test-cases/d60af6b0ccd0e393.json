@@ -1,0 +1,154 @@
+{
+  "uid" : "d60af6b0ccd0e393",
+  "name" : "test2",
+  "fullName" : "com.test.qabattle.FirstTest.test2",
+  "historyId" : "b4fa34e00ba3754e3d6901ebc0f9aae",
+  "time" : {
+    "start" : 1579544947941,
+    "stop" : 1579544949199,
+    "duration" : 1258
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1579544941011,
+      "stop" : 1579544941030,
+      "duration" : 19
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://212.237.55.99:8081/",
+      "time" : {
+        "start" : 1579544947941,
+        "stop" : 1579544948100,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(#registrationContainer) should(visible)",
+      "time" : {
+        "start" : 1579544948100,
+        "stop" : 1579544948220,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.card-header) should be(visible)",
+      "time" : {
+        "start" : 1579544948221,
+        "stop" : 1579544948320,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(.card-header) should have(exact text 'Welcome to Propeller Championship!')",
+      "time" : {
+        "start" : 1579544948320,
+        "stop" : 1579544948387,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "756afa4d3c501867",
+      "name" : "Screenshot",
+      "source" : "756afa4d3c501867.png",
+      "type" : "image/png",
+      "size" : 332908
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.FirstTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.FirstTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.FirstTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az50"
+  }, {
+    "name" : "thread",
+    "value" : "4152@fv-az50.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d60af6b0ccd0e393.json",
+  "parameterValues" : [ ]
+}

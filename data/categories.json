@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 35 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "b20fedface1fa451",
+        "parentUid" : "2db709137d11df704ebc95106705a820",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579546605840,
+          "stop" : 1579546701357,
+          "duration" : 95517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2db709137d11df704ebc95106705a820"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://127.0.0.1:8081/\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.jiH0Vu}, goog:chromeOptions: {debuggerAddress: localhost:33641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8080\nSession ID: b29a2044174bc51d76e8cee23494f341",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "554543e649b9155c",
+        "parentUid" : "55512877e6f0f0a54ff5d12ac30be234",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579546701489,
+          "stop" : 1579546701516,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55512877e6f0f0a54ff5d12ac30be234"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

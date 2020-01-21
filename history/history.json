@@ -1,0 +1,42 @@
+{
+  "b4fa34e00ba3754e3d6901ebc0f9aae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9468c774ec06e780",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n  (Session info: chrome=79.0.3945.79)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://:8081//\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.ExEGKI}, goog:chromeOptions: {debuggerAddress: localhost:36509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://:8081/\nSession ID: 4c0ebf7f34cf8e29ff9e56d17d8b9f71",
+      "time" : {
+        "start" : 1579582793822,
+        "stop" : 1579582794110,
+        "duration" : 288
+      }
+    } ]
+  },
+  "854110b638328ccf771e0ab42e204b5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c00edd7c97b405e2",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n  (Session info: chrome=79.0.3945.79)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://:8081//\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.ExEGKI}, goog:chromeOptions: {debuggerAddress: localhost:36509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://:8081/\nSession ID: 4c0ebf7f34cf8e29ff9e56d17d8b9f71",
+      "time" : {
+        "start" : 1579582788016,
+        "stop" : 1579582793527,
+        "duration" : 5511
+      }
+    } ]
+  }
+}

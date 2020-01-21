@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Jan 21 04:59:53 UTC 2020","Tue Jan 21 04:59:54 UTC 2020","288","Surefire suite","Surefire test","com.test.qabattle.FirstTest","com.test.qabattle.FirstTest","test2","test2",""
+"broken","Tue Jan 21 04:59:48 UTC 2020","Tue Jan 21 04:59:53 UTC 2020","5511","Surefire suite","Surefire test","com.test.qabattle.FirstTest","com.test.qabattle.FirstTest","test","test",""

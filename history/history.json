@@ -1,14 +1,23 @@
 {
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "32600cc2503c29fb",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
+      "time" : {
+        "start" : 1579584500372,
+        "stop" : 1579584596714,
+        "duration" : 96342
+      }
+    }, {
       "uid" : "6138836701ea0b22",
       "status" : "broken",
       "statusDetails" : "Expected to read a START_MAP but instead have: END. Last 0 characters read: \nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver\nselenide.url: http://qabattle:8081//\nselenide.baseUrl: http://qabattle:8081/",
@@ -40,13 +49,22 @@
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "5d29485f120cf7f3",
+      "status" : "broken",
+      "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://localhost:8081/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KkStML}, goog:chromeOptions: {debuggerAddress: localhost:33041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8081\nSession ID: 3d5ad0a094b9035524719476ae4b8400",
+      "time" : {
+        "start" : 1579584596809,
+        "stop" : 1579584596822,
+        "duration" : 13
+      }
+    }, {
       "uid" : "3c45062deabb4599",
       "status" : "broken",
       "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8081//\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.LZv6CL}, goog:chromeOptions: {debuggerAddress: localhost:38741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8081/\nSession ID: be0aef4732a6e96549faca3e94d46e67",

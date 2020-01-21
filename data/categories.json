@@ -1,41 +1,45 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Expected to read a START_MAP but instead have: END. Last 0 characters read: \nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver\nselenide.url: http://qabattle:8081//\nselenide.baseUrl: http://qabattle:8081/",
+      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
       "children" : [ {
         "name" : "test",
-        "uid" : "6138836701ea0b22",
-        "parentUid" : "4dfcae2c71f2891b674f008fb51a34a4",
-        "status" : "broken",
+        "uid" : "32600cc2503c29fb",
+        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
+        "status" : "failed",
         "time" : {
-          "start" : 1579584188467,
-          "stop" : 1579584284512,
-          "duration" : 96045
+          "start" : 1579584500372,
+          "stop" : 1579584596714,
+          "duration" : 96342
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4dfcae2c71f2891b674f008fb51a34a4"
-    }, {
-      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8081//\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.LZv6CL}, goog:chromeOptions: {debuggerAddress: localhost:38741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8081/\nSession ID: be0aef4732a6e96549faca3e94d46e67",
+      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://localhost:8081/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KkStML}, goog:chromeOptions: {debuggerAddress: localhost:33041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8081\nSession ID: 3d5ad0a094b9035524719476ae4b8400",
       "children" : [ {
         "name" : "test2",
-        "uid" : "3c45062deabb4599",
-        "parentUid" : "5b9d1cc625d98187042798c8c22f020d",
+        "uid" : "5d29485f120cf7f3",
+        "parentUid" : "dd31272bf38c404fadcab3b849a5fd26",
         "status" : "broken",
         "time" : {
-          "start" : 1579584284765,
-          "stop" : 1579584284788,
-          "duration" : 23
+          "start" : 1579584596809,
+          "stop" : 1579584596822,
+          "duration" : 13
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5b9d1cc625d98187042798c8c22f020d"
+      "uid" : "dd31272bf38c404fadcab3b849a5fd26"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

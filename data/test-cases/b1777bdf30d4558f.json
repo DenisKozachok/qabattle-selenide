@@ -1,12 +1,12 @@
 {
-  "uid" : "af220887e04dd4c2",
+  "uid" : "b1777bdf30d4558f",
   "name" : "test",
   "fullName" : "com.test.qabattle.FirstTest.test",
   "historyId" : "854110b638328ccf771e0ab42e204b5b",
   "time" : {
-    "start" : 1579615614466,
-    "stop" : 1579615621732,
-    "duration" : 7266
+    "start" : 1579617724617,
+    "stop" : 1579617731918,
+    "duration" : 7301
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1579615614363,
-      "stop" : 1579615614386,
-      "duration" : 23
+      "start" : 1579617724509,
+      "stop" : 1579617724529,
+      "duration" : 20
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "$(open) http://qabattle:8080/",
       "time" : {
-        "start" : 1579615614522,
-        "stop" : 1579615620871,
-        "duration" : 6349
+        "start" : 1579617724665,
+        "stop" : 1579617731056,
+        "duration" : 6391
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "$(#registrationContainer) wait until([visible, 1000])",
       "time" : {
-        "start" : 1579615620967,
-        "stop" : 1579615621106,
-        "duration" : 139
+        "start" : 1579617731126,
+        "stop" : 1579617731251,
+        "duration" : 125
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "$(.card-header) should be(visible)",
       "time" : {
-        "start" : 1579615621106,
-        "stop" : 1579615621159,
-        "duration" : 53
+        "start" : 1579617731251,
+        "stop" : 1579617731343,
+        "duration" : 92
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "$(.card-header) should have(exact text 'Welcome to Propeller Championship!')",
       "time" : {
-        "start" : 1579615621159,
-        "stop" : 1579615621199,
-        "duration" : 40
+        "start" : 1579617731343,
+        "stop" : 1579617731382,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "57ad594152b94e7d",
+      "uid" : "a496bebd82d68604",
       "name" : "Screenshot",
-      "source" : "57ad594152b94e7d.png",
+      "source" : "a496bebd82d68604.png",
       "type" : "image/png",
       "size" : 332908
     } ],
@@ -125,10 +125,10 @@
     "value" : "com.test.qabattle.FirstTest"
   }, {
     "name" : "host",
-    "value" : "fv-az12"
+    "value" : "fv-az98"
   }, {
     "name" : "thread",
-    "value" : "4291@fv-az12.main(1)"
+    "value" : "4081@fv-az98.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -147,8 +147,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "af220887e04dd4c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579615614466,
+          "stop" : 1579615621732,
+          "duration" : 7266
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "af220887e04dd4c2.json",
+  "source" : "b1777bdf30d4558f.json",
   "parameterValues" : [ ]
 }

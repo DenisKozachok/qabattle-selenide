@@ -2,13 +2,22 @@
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "da8901e221850a1b",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33.42 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579595583669,
+        "stop" : 1579595618045,
+        "duration" : 34376
+      }
+    }, {
       "uid" : "50ae36f125bbdd5b",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33.27 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az131', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -44,27 +53,27 @@
         "stop" : 1579593926028,
         "duration" : 6592
       }
-    }, {
-      "uid" : "6760f47143abc2a0",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az12', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579593508156,
-        "stop" : 1579593509100,
-        "duration" : 944
-      }
     } ]
   },
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "d341b697c1d04637",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30.58 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579595618162,
+        "stop" : 1579595648769,
+        "duration" : 30607
+      }
+    }, {
       "uid" : "fd53fd7ca5d2d7e7",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30.48 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az131', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -99,15 +108,6 @@
         "start" : 1579593926318,
         "stop" : 1579593927767,
         "duration" : 1449
-      }
-    }, {
-      "uid" : "a8a370108323b046",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az12', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579593509248,
-        "stop" : 1579593509330,
-        "duration" : 82
       }
     } ]
   }

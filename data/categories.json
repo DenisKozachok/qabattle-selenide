@@ -1,45 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
-      "children" : [ {
-        "name" : "test",
-        "uid" : "d35ada8ecf1fe9fe",
-        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579583433039,
-          "stop" : 1579583529575,
-          "duration" : 96536
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://172.17.0.2:8081//\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.iNbLbc}, goog:chromeOptions: {debuggerAddress: localhost:43161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://172.17.0.2:8081/\nSession ID: 44dd504e4f866b77631ffe9695bf76df",
+      "name" : "Expected to read a START_MAP but instead have: END. Last 0 characters read: \nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver\nselenide.url: http://qabattle:8081//\nselenide.baseUrl: http://qabattle:8081/",
       "children" : [ {
-        "name" : "test2",
-        "uid" : "d9f69f1a8b5fe671",
-        "parentUid" : "92f4d94540f877060b1119b22d02e174",
+        "name" : "test",
+        "uid" : "6138836701ea0b22",
+        "parentUid" : "4dfcae2c71f2891b674f008fb51a34a4",
         "status" : "broken",
         "time" : {
-          "start" : 1579583529679,
-          "stop" : 1579583529694,
-          "duration" : 15
+          "start" : 1579584188467,
+          "stop" : 1579584284512,
+          "duration" : 96045
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "92f4d94540f877060b1119b22d02e174"
+      "uid" : "4dfcae2c71f2891b674f008fb51a34a4"
+    }, {
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8081//\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.LZv6CL}, goog:chromeOptions: {debuggerAddress: localhost:38741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8081/\nSession ID: be0aef4732a6e96549faca3e94d46e67",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "3c45062deabb4599",
+        "parentUid" : "5b9d1cc625d98187042798c8c22f020d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579584284765,
+          "stop" : 1579584284788,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b9d1cc625d98187042798c8c22f020d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

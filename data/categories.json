@@ -1,45 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
-      "children" : [ {
-        "name" : "test",
-        "uid" : "32600cc2503c29fb",
-        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579584500372,
-          "stop" : 1579584596714,
-          "duration" : 96342
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://localhost:8081/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KkStML}, goog:chromeOptions: {debuggerAddress: localhost:33041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8081\nSession ID: 3d5ad0a094b9035524719476ae4b8400",
+      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: Cannot link to /qabattle, as it does not belong to the default network (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.84 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "children" : [ {
-        "name" : "test2",
-        "uid" : "5d29485f120cf7f3",
-        "parentUid" : "dd31272bf38c404fadcab3b849a5fd26",
+        "name" : "test",
+        "uid" : "67721283f2f4c370",
+        "parentUid" : "2b4aa3efb8f21e76b004656d89aae4fd",
         "status" : "broken",
         "time" : {
-          "start" : 1579584596809,
-          "stop" : 1579584596822,
-          "duration" : 13
+          "start" : 1579589840505,
+          "stop" : 1579589844151,
+          "duration" : 3646
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "dd31272bf38c404fadcab3b849a5fd26"
+      "uid" : "2b4aa3efb8f21e76b004656d89aae4fd"
+    }, {
+      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: Cannot link to /qabattle, as it does not belong to the default network (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 105 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "9e5c0d9dde6893cd",
+        "parentUid" : "6d63945baf64b273f157f4c96f7ec15c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579589844256,
+          "stop" : 1579589844390,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d63945baf64b273f157f4c96f7ec15c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

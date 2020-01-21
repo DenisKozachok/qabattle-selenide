@@ -1,12 +1,12 @@
 {
-  "uid" : "2212c38aaab13e1f",
-  "name" : "test",
-  "fullName" : "com.test.qabattle.FirstTest.test",
-  "historyId" : "854110b638328ccf771e0ab42e204b5b",
+  "uid" : "18f30a4163552424",
+  "name" : "test2",
+  "fullName" : "com.test.qabattle.FirstTest.test2",
+  "historyId" : "b4fa34e00ba3754e3d6901ebc0f9aae",
   "time" : {
-    "start" : 1579618450478,
-    "stop" : 1579618471055,
-    "duration" : 20577
+    "start" : 1579619217139,
+    "stop" : 1579619217848,
+    "duration" : 709
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1579618450365,
-      "stop" : 1579618450386,
-      "duration" : 21
+      "start" : 1579619209246,
+      "stop" : 1579619209269,
+      "duration" : 23
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "$(open) http://qabattle:8080/",
       "time" : {
-        "start" : 1579618450526,
-        "stop" : 1579618456942,
-        "duration" : 6416
+        "start" : 1579619217140,
+        "stop" : 1579619217241,
+        "duration" : 101
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "$(#registrationContainer) wait until([visible, 1000])",
       "time" : {
-        "start" : 1579618457005,
-        "stop" : 1579618457141,
-        "duration" : 136
+        "start" : 1579619217241,
+        "stop" : 1579619217364,
+        "duration" : 123
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "$(.card-header) should be(visible)",
       "time" : {
-        "start" : 1579618457141,
-        "stop" : 1579618457236,
-        "duration" : 95
+        "start" : 1579619217365,
+        "stop" : 1579619217408,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "$(.card-header) should have(exact text 'Welcome to Propeller Championship!')",
       "time" : {
-        "start" : 1579618457236,
-        "stop" : 1579618457264,
-        "duration" : 28
+        "start" : 1579619217409,
+        "stop" : 1579619217442,
+        "duration" : 33
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "5603ab92e6b617fa",
+      "uid" : "9fcf09f8d5968144",
       "name" : "Screenshot",
-      "source" : "5603ab92e6b617fa.png",
+      "source" : "9fcf09f8d5968144.png",
       "type" : "image/png",
       "size" : 332908
     } ],
@@ -113,7 +113,7 @@
     "value" : "com.test.qabattle.FirstTest"
   }, {
     "name" : "testMethod",
-    "value" : "test"
+    "value" : "test2"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -125,10 +125,10 @@
     "value" : "com.test.qabattle.FirstTest"
   }, {
     "name" : "host",
-    "value" : "fv-az88"
+    "value" : "fv-az98"
   }, {
     "name" : "thread",
-    "value" : "4111@fv-az88.main(1)"
+    "value" : "4100@fv-az98.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -152,38 +152,46 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
-        "uid" : "aaf06c88ccd05683",
+        "uid" : "626981ec1ba9de3f",
         "status" : "passed",
         "time" : {
-          "start" : 1579617746946,
-          "stop" : 1579617754105,
-          "duration" : 7159
+          "start" : 1579618471161,
+          "stop" : 1579618471838,
+          "duration" : 677
         }
       }, {
-        "uid" : "b1777bdf30d4558f",
+        "uid" : "2853b432bae9ad44",
         "status" : "passed",
         "time" : {
-          "start" : 1579617724617,
-          "stop" : 1579617731918,
-          "duration" : 7301
+          "start" : 1579617754200,
+          "stop" : 1579617754958,
+          "duration" : 758
         }
       }, {
-        "uid" : "af220887e04dd4c2",
+        "uid" : "9dd13926562d13f4",
         "status" : "passed",
         "time" : {
-          "start" : 1579615614466,
-          "stop" : 1579615621732,
-          "duration" : 7266
+          "start" : 1579617732043,
+          "stop" : 1579617732890,
+          "duration" : 847
+        }
+      }, {
+        "uid" : "8c3ebda2a26ce821",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579615621872,
+          "stop" : 1579615622595,
+          "duration" : 723
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "2212c38aaab13e1f.json",
+  "source" : "18f30a4163552424.json",
   "parameterValues" : [ ]
 }

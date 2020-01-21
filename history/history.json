@@ -1,14 +1,23 @@
 {
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d821c8095c5a348",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 5 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
+      "time" : {
+        "start" : 1579576512299,
+        "stop" : 1579576660849,
+        "duration" : 148550
+      }
+    }, {
       "uid" : "709a80ecd7669835",
       "status" : "failed",
       "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 35 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
@@ -31,13 +40,22 @@
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "6dae7cb59d4e3315",
+      "status" : "broken",
+      "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://host.docker.internal:8081/\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.K4qgEc}, goog:chromeOptions: {debuggerAddress: localhost:42895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8080\nSession ID: 89b9c6fb5afd53b74159e3715c2faf97",
+      "time" : {
+        "start" : 1579576661003,
+        "stop" : 1579576661019,
+        "duration" : 16
+      }
+    }, {
       "uid" : "1919e92487286e5b",
       "status" : "broken",
       "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az88', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://host.docker.internal:8081/\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.jfJFJX}, goog:chromeOptions: {debuggerAddress: localhost:37167}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8080\nSession ID: d1a743ec1b83b09088d4922c15ee5f76",

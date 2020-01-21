@@ -2,13 +2,22 @@
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "2d8d1e748f8d0ad0",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579601777544,
+        "stop" : 1579601778627,
+        "duration" : 1083
+      }
+    }, {
       "uid" : "da8901e221850a1b",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33.42 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -44,27 +53,27 @@
         "stop" : 1579594318517,
         "duration" : 1119
       }
-    }, {
-      "uid" : "5c9e82b15cc0a47d",
-      "status" : "failed",
-      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#registrationContainer\"}",
-      "time" : {
-        "start" : 1579593919436,
-        "stop" : 1579593926028,
-        "duration" : 6592
-      }
     } ]
   },
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "ccb9d7aa84958621",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579601778762,
+        "stop" : 1579601778829,
+        "duration" : 67
+      }
+    }, {
       "uid" : "d341b697c1d04637",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30.58 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -99,15 +108,6 @@
         "start" : 1579594318678,
         "stop" : 1579594318756,
         "duration" : 78
-      }
-    }, {
-      "uid" : "47771a74fc300feb",
-      "status" : "failed",
-      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#registrationContainer\"}",
-      "time" : {
-        "start" : 1579593926318,
-        "stop" : 1579593927767,
-        "duration" : 1449
       }
     } ]
   }

@@ -3,39 +3,35 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33.42 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "name" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "children" : [ {
         "name" : "test",
-        "uid" : "da8901e221850a1b",
-        "parentUid" : "bac33e5679a2e34cf22efe586f2f78a4",
+        "uid" : "2d8d1e748f8d0ad0",
+        "parentUid" : "da7b99ce8c029ee327ca7cc3391f8a0e",
         "status" : "broken",
         "time" : {
-          "start" : 1579595583669,
-          "stop" : 1579595618045,
-          "duration" : 34376
+          "start" : 1579601777544,
+          "stop" : 1579601778627,
+          "duration" : 1083
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "bac33e5679a2e34cf22efe586f2f78a4"
-    }, {
-      "name" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30.58 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az54', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "children" : [ {
+      }, {
         "name" : "test2",
-        "uid" : "d341b697c1d04637",
-        "parentUid" : "c8255e3f663e2fc25dbdd567ece8ad28",
+        "uid" : "ccb9d7aa84958621",
+        "parentUid" : "da7b99ce8c029ee327ca7cc3391f8a0e",
         "status" : "broken",
         "time" : {
-          "start" : 1579595618162,
-          "stop" : 1579595648769,
-          "duration" : 30607
+          "start" : 1579601778762,
+          "stop" : 1579601778829,
+          "duration" : 67
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c8255e3f663e2fc25dbdd567ece8ad28"
+      "uid" : "da7b99ce8c029ee327ca7cc3391f8a0e"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

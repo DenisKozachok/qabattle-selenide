@@ -1,12 +1,12 @@
 {
-  "uid" : "9d979408ff3a8698",
+  "uid" : "28b3c2a707ddccde",
   "name" : "test",
   "fullName" : "com.test.qabattle.FirstTest.test",
   "historyId" : "854110b638328ccf771e0ab42e204b5b",
   "time" : {
-    "start" : 1579594317398,
-    "stop" : 1579594318517,
-    "duration" : 1119
+    "start" : 1579594553712,
+    "stop" : 1579594554829,
+    "duration" : 1117
   },
   "status" : "broken",
   "statusMessage" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1579594317273,
-      "stop" : 1579594317297,
-      "duration" : 24
+      "start" : 1579594553583,
+      "stop" : 1579594553608,
+      "duration" : 25
     },
     "description" : "",
     "status" : "passed",
@@ -37,9 +37,9 @@
     "steps" : [ {
       "name" : "$(open) http://qabattle:8080/",
       "time" : {
-        "start" : 1579594317448,
-        "stop" : 1579594318498,
-        "duration" : 1050
+        "start" : 1579594553768,
+        "stop" : 1579594554791,
+        "duration" : 1023
       },
       "status" : "broken",
       "statusMessage" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -47,9 +47,9 @@
       "steps" : [ {
         "name" : "RemoteDriver error: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
         "time" : {
-          "start" : 1579594318489,
-          "stop" : 1579594318491,
-          "duration" : 2
+          "start" : 1579594554783,
+          "stop" : 1579594554786,
+          "duration" : 3
         },
         "status" : "failed",
         "steps" : [ ],
@@ -98,7 +98,7 @@
     "value" : "fv-az98"
   }, {
     "name" : "thread",
-    "value" : "5868@fv-az98.main(1)"
+    "value" : "5270@fv-az98.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -124,13 +124,22 @@
     "history" : {
       "statistic" : {
         "failed" : 1,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "9d979408ff3a8698",
+        "status" : "broken",
+        "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+        "time" : {
+          "start" : 1579594317398,
+          "stop" : 1579594318517,
+          "duration" : 1119
+        }
+      }, {
         "uid" : "5c9e82b15cc0a47d",
         "status" : "failed",
         "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#registrationContainer\"}",
@@ -152,6 +161,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "9d979408ff3a8698.json",
+  "source" : "28b3c2a707ddccde.json",
   "parameterValues" : [ ]
 }

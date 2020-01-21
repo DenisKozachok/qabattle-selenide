@@ -1,12 +1,12 @@
 {
-  "uid" : "b1777bdf30d4558f",
-  "name" : "test",
-  "fullName" : "com.test.qabattle.FirstTest.test",
-  "historyId" : "854110b638328ccf771e0ab42e204b5b",
+  "uid" : "2853b432bae9ad44",
+  "name" : "test2",
+  "fullName" : "com.test.qabattle.FirstTest.test2",
+  "historyId" : "b4fa34e00ba3754e3d6901ebc0f9aae",
   "time" : {
-    "start" : 1579617724617,
-    "stop" : 1579617731918,
-    "duration" : 7301
+    "start" : 1579617754200,
+    "stop" : 1579617754958,
+    "duration" : 758
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1579617724509,
-      "stop" : 1579617724529,
-      "duration" : 20
+      "start" : 1579617746865,
+      "stop" : 1579617746886,
+      "duration" : 21
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "$(open) http://qabattle:8080/",
       "time" : {
-        "start" : 1579617724665,
-        "stop" : 1579617731056,
-        "duration" : 6391
+        "start" : 1579617754201,
+        "stop" : 1579617754312,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "$(#registrationContainer) wait until([visible, 1000])",
       "time" : {
-        "start" : 1579617731126,
-        "stop" : 1579617731251,
-        "duration" : 125
+        "start" : 1579617754312,
+        "stop" : 1579617754422,
+        "duration" : 110
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "$(.card-header) should be(visible)",
       "time" : {
-        "start" : 1579617731251,
-        "stop" : 1579617731343,
-        "duration" : 92
+        "start" : 1579617754422,
+        "stop" : 1579617754512,
+        "duration" : 90
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "$(.card-header) should have(exact text 'Welcome to Propeller Championship!')",
       "time" : {
-        "start" : 1579617731343,
-        "stop" : 1579617731382,
-        "duration" : 39
+        "start" : 1579617754513,
+        "stop" : 1579617754548,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "a496bebd82d68604",
+      "uid" : "9a224813fff6a8d2",
       "name" : "Screenshot",
-      "source" : "a496bebd82d68604.png",
+      "source" : "9a224813fff6a8d2.png",
       "type" : "image/png",
       "size" : 332908
     } ],
@@ -113,7 +113,7 @@
     "value" : "com.test.qabattle.FirstTest"
   }, {
     "name" : "testMethod",
-    "value" : "test"
+    "value" : "test2"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -125,10 +125,10 @@
     "value" : "com.test.qabattle.FirstTest"
   }, {
     "name" : "host",
-    "value" : "fv-az98"
+    "value" : "fv-az89"
   }, {
     "name" : "thread",
-    "value" : "4081@fv-az98.main(1)"
+    "value" : "3984@fv-az89.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -152,22 +152,30 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "af220887e04dd4c2",
+        "uid" : "9dd13926562d13f4",
         "status" : "passed",
         "time" : {
-          "start" : 1579615614466,
-          "stop" : 1579615621732,
-          "duration" : 7266
+          "start" : 1579617732043,
+          "stop" : 1579617732890,
+          "duration" : 847
+        }
+      }, {
+        "uid" : "8c3ebda2a26ce821",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579615621872,
+          "stop" : 1579615622595,
+          "duration" : 723
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "b1777bdf30d4558f.json",
+  "source" : "2853b432bae9ad44.json",
   "parameterValues" : [ ]
 }

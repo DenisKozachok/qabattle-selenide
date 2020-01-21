@@ -3,37 +3,45 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#registrationContainer\"}",
+      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
       "children" : [ {
         "name" : "test",
-        "uid" : "a6f5c05dcb151a2d",
-        "parentUid" : "6aa782a9f88017940251d56d01e1f62d",
+        "uid" : "83c0248be003b1a8",
+        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
         "status" : "failed",
         "time" : {
-          "start" : 1579581544936,
-          "stop" : 1579581550928,
-          "duration" : 5992
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test2",
-        "uid" : "38d7b8c53dafd8a5",
-        "parentUid" : "6aa782a9f88017940251d56d01e1f62d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579581551198,
-          "stop" : 1579581552594,
-          "duration" : 1396
+          "start" : 1579581972768,
+          "stop" : 1579582069369,
+          "duration" : 96601
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6aa782a9f88017940251d56d01e1f62d"
+      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://localhost:8081/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.2ldckF}, goog:chromeOptions: {debuggerAddress: localhost:42987}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8080\nSession ID: f3a0fd7a77bf34ddeab14f1e450fac18",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "e257a225ae21531f",
+        "parentUid" : "7102703c02fe50ff00d4a1efaf492864",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579582069493,
+          "stop" : 1579582069518,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7102703c02fe50ff00d4a1efaf492864"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }

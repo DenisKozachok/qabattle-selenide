@@ -2,13 +2,22 @@
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "60f6639371fdb5f4",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 34.28 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579592500975,
+        "stop" : 1579592536220,
+        "duration" : 35245
+      }
+    }, {
       "uid" : "5598b00d1700a5c9",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network -conf not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.89 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -44,27 +53,27 @@
         "stop" : 1579591063222,
         "duration" : 3891
       }
-    }, {
-      "uid" : "f8fe15746c8733f2",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network -conf not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.83 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579590639777,
-        "stop" : 1579590643487,
-        "duration" : 3710
-      }
     } ]
   },
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "f7286d3d413787b7",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.WebDriverException: wait: http://172.18.0.3:4444/ does not respond in 30s (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31.94 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az60', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579592536389,
+        "stop" : 1579592568400,
+        "duration" : 32011
+      }
+    }, {
       "uid" : "c5fb319e2d21715",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network -conf not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 26 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -99,15 +108,6 @@
         "start" : 1579591063326,
         "stop" : 1579591063415,
         "duration" : 89
-      }
-    }, {
-      "uid" : "86dcb00895014d8a",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network -conf not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 34 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579590643620,
-        "stop" : 1579590643673,
-        "duration" : 53
       }
     } ]
   }

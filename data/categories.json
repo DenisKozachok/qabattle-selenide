@@ -6,13 +6,13 @@
       "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 5 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
       "children" : [ {
         "name" : "test",
-        "uid" : "d821c8095c5a348",
+        "uid" : "ef156588f1c37c73",
         "parentUid" : "0ed63d73a176f93a19769aa442c43a18",
         "status" : "failed",
         "time" : {
-          "start" : 1579576512299,
-          "stop" : 1579576660849,
-          "duration" : 148550
+          "start" : 1579576852397,
+          "stop" : 1579576947793,
+          "duration" : 95396
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,22 +24,22 @@
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://host.docker.internal:8081/\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.K4qgEc}, goog:chromeOptions: {debuggerAddress: localhost:42895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8080\nSession ID: 89b9c6fb5afd53b74159e3715c2faf97",
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az98', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://localhost:8081/\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.Ntx2AD}, goog:chromeOptions: {debuggerAddress: localhost:41739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://localhost:8080\nSession ID: 9d1f48f2156d35b8d6f7c0e2c5fa71fd",
       "children" : [ {
         "name" : "test2",
-        "uid" : "6dae7cb59d4e3315",
-        "parentUid" : "1abe957c65880fd4bc2a5eeb27e6f101",
+        "uid" : "4f618abcf7c890f8",
+        "parentUid" : "e995c878b186921831e9d1e79cc6357b",
         "status" : "broken",
         "time" : {
-          "start" : 1579576661003,
-          "stop" : 1579576661019,
-          "duration" : 16
+          "start" : 1579576947906,
+          "stop" : 1579576947937,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1abe957c65880fd4bc2a5eeb27e6f101"
+      "uid" : "e995c878b186921831e9d1e79cc6357b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

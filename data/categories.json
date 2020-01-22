@@ -1,45 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
-      "children" : [ {
-        "name" : "test",
-        "uid" : "951ab66864c50d93",
-        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579676962670,
-          "stop" : 1579677059257,
-          "duration" : 96587
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KfxFkJ}, goog:chromeOptions: {debuggerAddress: localhost:37421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: 7b1a722b2e0ef5d7a9dcc5d04b9a38fe",
+      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_default not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.56 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "children" : [ {
-        "name" : "test2",
-        "uid" : "b397c381502f9570",
-        "parentUid" : "a8f86973b65c84be41c1e63bb7250354",
+        "name" : "test",
+        "uid" : "6551948c8c65e75e",
+        "parentUid" : "681177afbac267ad5e598e72809e1b13",
         "status" : "broken",
         "time" : {
-          "start" : 1579677059429,
-          "stop" : 1579677059453,
-          "duration" : 24
+          "start" : 1579677768050,
+          "stop" : 1579677772557,
+          "duration" : 4507
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a8f86973b65c84be41c1e63bb7250354"
+      "uid" : "681177afbac267ad5e598e72809e1b13"
+    }, {
+      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_default not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 47 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "d60c57761f260036",
+        "parentUid" : "4ba7ee0501e6f7e1ab9a213b31b4a0bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579677772766,
+          "stop" : 1579677772877,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ba7ee0501e6f7e1ab9a213b31b4a0bc"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

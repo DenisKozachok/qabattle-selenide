@@ -2,13 +2,22 @@
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "6551948c8c65e75e",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_default not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.56 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579677768050,
+        "stop" : 1579677772557,
+        "duration" : 4507
+      }
+    }, {
       "uid" : "951ab66864c50d93",
       "status" : "failed",
       "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
@@ -40,13 +49,22 @@
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "d60c57761f260036",
+      "status" : "broken",
+      "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_default not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 47 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1579677772766,
+        "stop" : 1579677772877,
+        "duration" : 111
+      }
+    }, {
       "uid" : "b397c381502f9570",
       "status" : "broken",
       "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KfxFkJ}, goog:chromeOptions: {debuggerAddress: localhost:37421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: 7b1a722b2e0ef5d7a9dcc5d04b9a38fe",

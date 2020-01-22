@@ -3,35 +3,35 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "name" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "children" : [ {
         "name" : "test",
-        "uid" : "df29eba48d383a2",
-        "parentUid" : "c78dfd941df5e95310f08b2976e03212",
+        "uid" : "6e40405e3f3cd37c",
+        "parentUid" : "74224cf6dd8cfc5364b07ac25a8dc92b",
         "status" : "broken",
         "time" : {
-          "start" : 1579676330740,
-          "stop" : 1579676331838,
-          "duration" : 1098
+          "start" : 1579676700551,
+          "stop" : 1579676701638,
+          "duration" : 1087
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test2",
-        "uid" : "b7b7ea1d74b2a13",
-        "parentUid" : "c78dfd941df5e95310f08b2976e03212",
+        "uid" : "d44a1bf6b23a771",
+        "parentUid" : "74224cf6dd8cfc5364b07ac25a8dc92b",
         "status" : "broken",
         "time" : {
-          "start" : 1579676331979,
-          "stop" : 1579676332011,
-          "duration" : 32
+          "start" : 1579676701784,
+          "stop" : 1579676701814,
+          "duration" : 30
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c78dfd941df5e95310f08b2976e03212"
+      "uid" : "74224cf6dd8cfc5364b07ac25a8dc92b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

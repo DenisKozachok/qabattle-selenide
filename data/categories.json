@@ -1,37 +1,45 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
       "children" : [ {
         "name" : "test",
-        "uid" : "6e40405e3f3cd37c",
-        "parentUid" : "74224cf6dd8cfc5364b07ac25a8dc92b",
-        "status" : "broken",
+        "uid" : "951ab66864c50d93",
+        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
+        "status" : "failed",
         "time" : {
-          "start" : 1579676700551,
-          "stop" : 1579676701638,
-          "duration" : 1087
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test2",
-        "uid" : "d44a1bf6b23a771",
-        "parentUid" : "74224cf6dd8cfc5364b07ac25a8dc92b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1579676701784,
-          "stop" : 1579676701814,
-          "duration" : 30
+          "start" : 1579676962670,
+          "stop" : 1579677059257,
+          "duration" : 96587
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "74224cf6dd8cfc5364b07ac25a8dc92b"
+      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KfxFkJ}, goog:chromeOptions: {debuggerAddress: localhost:37421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: 7b1a722b2e0ef5d7a9dcc5d04b9a38fe",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "b397c381502f9570",
+        "parentUid" : "a8f86973b65c84be41c1e63bb7250354",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579677059429,
+          "stop" : 1579677059453,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8f86973b65c84be41c1e63bb7250354"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

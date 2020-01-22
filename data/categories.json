@@ -1,45 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
-      "children" : [ {
-        "name" : "test",
-        "uid" : "a9f3fb2022b0aec8",
-        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1579678814347,
-          "stop" : 1579678910554,
-          "duration" : 96207
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.8zvXH9}, goog:chromeOptions: {debuggerAddress: localhost:45649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: f9f0d26503c45b62b20200d50cff0cf5",
+      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_bridge not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.52 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "children" : [ {
-        "name" : "test2",
-        "uid" : "33fdebb99e48be04",
-        "parentUid" : "d6bb0c6c4e170c8da63810483ebac0c1",
+        "name" : "test",
+        "uid" : "92e28f91fc6c0b73",
+        "parentUid" : "e17966668042563c978c2f96b797f44b",
         "status" : "broken",
         "time" : {
-          "start" : 1579678910685,
-          "stop" : 1579678910717,
-          "duration" : 32
+          "start" : 1579679178273,
+          "stop" : 1579679182855,
+          "duration" : 4582
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d6bb0c6c4e170c8da63810483ebac0c1"
+      "uid" : "e17966668042563c978c2f96b797f44b"
+    }, {
+      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_bridge not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 46 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "6b43dac1fba71c51",
+        "parentUid" : "c54250b3d99e55d8d0ac0f96d5485d26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579679183024,
+          "stop" : 1579679183118,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c54250b3d99e55d8d0ac0f96d5485d26"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

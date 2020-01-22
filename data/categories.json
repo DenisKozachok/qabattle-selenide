@@ -1,41 +1,45 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle_selenoid not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.57 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "name" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
       "children" : [ {
         "name" : "test",
-        "uid" : "a5ac37491819f461",
-        "parentUid" : "d0466db311842072b43351bbb4582ee1",
-        "status" : "broken",
+        "uid" : "a9f3fb2022b0aec8",
+        "parentUid" : "44f4351919f2aa849e6bc9bed95fc69f",
+        "status" : "failed",
         "time" : {
-          "start" : 1579678558005,
-          "stop" : 1579678562513,
-          "duration" : 4508
+          "start" : 1579678814347,
+          "stop" : 1579678910554,
+          "duration" : 96207
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d0466db311842072b43351bbb4582ee1"
-    }, {
-      "name" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle_selenoid not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 35 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "uid" : "44f4351919f2aa849e6bc9bed95fc69f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.8zvXH9}, goog:chromeOptions: {debuggerAddress: localhost:45649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: f9f0d26503c45b62b20200d50cff0cf5",
       "children" : [ {
         "name" : "test2",
-        "uid" : "c4c828b52f9ab1f",
-        "parentUid" : "1868c55a91d12e3990987496b7b52cb6",
+        "uid" : "33fdebb99e48be04",
+        "parentUid" : "d6bb0c6c4e170c8da63810483ebac0c1",
         "status" : "broken",
         "time" : {
-          "start" : 1579678562619,
-          "stop" : 1579678562707,
-          "duration" : 88
+          "start" : 1579678910685,
+          "stop" : 1579678910717,
+          "duration" : 32
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1868c55a91d12e3990987496b7b52cb6"
+      "uid" : "d6bb0c6c4e170c8da63810483ebac0c1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Jan 22 07:35:58 UTC 2020","Wed Jan 22 07:36:02 UTC 2020","4508","Surefire suite","Surefire test","com.test.qabattle.FirstTest","com.test.qabattle.FirstTest","test","test",""
-"broken","Wed Jan 22 07:36:02 UTC 2020","Wed Jan 22 07:36:02 UTC 2020","88","Surefire suite","Surefire test","com.test.qabattle.FirstTest","com.test.qabattle.FirstTest","test2","test2",""
+"failed","Wed Jan 22 07:40:14 UTC 2020","Wed Jan 22 07:41:50 UTC 2020","96207","Surefire suite","Surefire test","com.test.qabattle.FirstTest","com.test.qabattle.FirstTest","test","test",""
+"broken","Wed Jan 22 07:41:50 UTC 2020","Wed Jan 22 07:41:50 UTC 2020","32","Surefire suite","Surefire test","com.test.qabattle.FirstTest","com.test.qabattle.FirstTest","test2","test2",""

@@ -1,14 +1,23 @@
 {
   "854110b638328ccf771e0ab42e204b5b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "a9f3fb2022b0aec8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
+      "time" : {
+        "start" : 1579678814347,
+        "stop" : 1579678910554,
+        "duration" : 96207
+      }
+    }, {
       "uid" : "a5ac37491819f461",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle_selenoid not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.57 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -44,27 +53,27 @@
         "stop" : 1579676701638,
         "duration" : 1087
       }
-    }, {
-      "uid" : "df29eba48d383a2",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579676330740,
-        "stop" : 1579676331838,
-        "duration" : 1098
-      }
     } ]
   },
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "33fdebb99e48be04",
+      "status" : "broken",
+      "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.8zvXH9}, goog:chromeOptions: {debuggerAddress: localhost:45649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: f9f0d26503c45b62b20200d50cff0cf5",
+      "time" : {
+        "start" : 1579678910685,
+        "stop" : 1579678910717,
+        "duration" : 32
+      }
+    }, {
       "uid" : "c4c828b52f9ab1f",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle_selenoid not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 35 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az89', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -99,15 +108,6 @@
         "start" : 1579676701784,
         "stop" : 1579676701814,
         "duration" : 30
-      }
-    }, {
-      "uid" : "b7b7ea1d74b2a13",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579676331979,
-        "stop" : 1579676332011,
-        "duration" : 32
       }
     } ]
   }

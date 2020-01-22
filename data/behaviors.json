@@ -2,26 +2,26 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test",
-    "uid" : "ddc48536d55a557",
+    "uid" : "5b67dfbf50f61e93",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1579675475627,
-      "stop" : 1579675476712,
-      "duration" : 1085
+      "start" : 1579675821980,
+      "stop" : 1579675822975,
+      "duration" : 995
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test2",
-    "uid" : "a5a068162265fe9c",
+    "uid" : "668eb6fabcb2016",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1579675476836,
-      "stop" : 1579675476863,
-      "duration" : 27
+      "start" : 1579675823129,
+      "stop" : 1579675823175,
+      "duration" : 46
     },
     "flaky" : false,
     "newFailed" : false,

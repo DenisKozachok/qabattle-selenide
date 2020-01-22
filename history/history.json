@@ -4,11 +4,19 @@
       "failed" : 2,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "75a00d5c7ce762f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579679317297,
+        "stop" : 1579679325371,
+        "duration" : 8074
+      }
+    }, {
       "uid" : "92e28f91fc6c0b73",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_bridge not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.52 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -44,15 +52,6 @@
         "stop" : 1579677772557,
         "duration" : 4507
       }
-    }, {
-      "uid" : "951ab66864c50d93",
-      "status" : "failed",
-      "statusDetails" : "Element not found {#registrationContainer}\nExpected: visible\nTimeout: 1 s.\nCaused by: json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read:",
-      "time" : {
-        "start" : 1579676962670,
-        "stop" : 1579677059257,
-        "duration" : 96587
-      }
     } ]
   },
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
@@ -60,11 +59,19 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b785080c60084c4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579679325511,
+        "stop" : 1579679326232,
+        "duration" : 721
+      }
+    }, {
       "uid" : "6b43dac1fba71c51",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.WebDriverException: start container: Error response from daemon: network qabattle-selenide_bridge not found (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 46 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -99,15 +106,6 @@
         "start" : 1579677772766,
         "stop" : 1579677772877,
         "duration" : 111
-      }
-    }, {
-      "uid" : "b397c381502f9570",
-      "status" : "broken",
-      "statusDetails" : "An unknown error has occurred\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nselenide.url: http://qabattle:8080/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.KfxFkJ}, goog:chromeOptions: {debuggerAddress: localhost:37421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nselenide.baseUrl: http://qabattle:8080\nSession ID: 7b1a722b2e0ef5d7a9dcc5d04b9a38fe",
-      "time" : {
-        "start" : 1579677059429,
-        "stop" : 1579677059453,
-        "duration" : 24
       }
     } ]
   }

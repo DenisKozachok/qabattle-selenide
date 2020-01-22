@@ -4,26 +4,26 @@
     "name" : "com.test.qabattle.FirstTest",
     "children" : [ {
       "name" : "test",
-      "uid" : "b99e73d396f494c7",
+      "uid" : "ddc48536d55a557",
       "parentUid" : "68519d5f06477304be6f1f4f261aaefc",
       "status" : "broken",
       "time" : {
-        "start" : 1579675277822,
-        "stop" : 1579675278906,
-        "duration" : 1084
+        "start" : 1579675475627,
+        "stop" : 1579675476712,
+        "duration" : 1085
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test2",
-      "uid" : "208eb90fa28ed192",
+      "uid" : "a5a068162265fe9c",
       "parentUid" : "68519d5f06477304be6f1f4f261aaefc",
       "status" : "broken",
       "time" : {
-        "start" : 1579675279061,
-        "stop" : 1579675279112,
-        "duration" : 51
+        "start" : 1579675476836,
+        "stop" : 1579675476863,
+        "duration" : 27
       },
       "flaky" : false,
       "newFailed" : false,

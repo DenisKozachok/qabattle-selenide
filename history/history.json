@@ -1,109 +1,41 @@
 {
-  "854110b638328ccf771e0ab42e204b5b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 8
-    },
-    "items" : [ {
-      "uid" : "5b67dfbf50f61e93",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579675821980,
-        "stop" : 1579675822975,
-        "duration" : 995
-      }
-    }, {
-      "uid" : "ddc48536d55a557",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579675475627,
-        "stop" : 1579675476712,
-        "duration" : 1085
-      }
-    }, {
-      "uid" : "b99e73d396f494c7",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579675277822,
-        "stop" : 1579675278906,
-        "duration" : 1084
-      }
-    }, {
-      "uid" : "f586750c3ca048c6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579619209374,
-        "stop" : 1579619217020,
-        "duration" : 7646
-      }
-    }, {
-      "uid" : "2212c38aaab13e1f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579618450478,
-        "stop" : 1579618471055,
-        "duration" : 20577
-      }
-    } ]
-  },
   "b4fa34e00ba3754e3d6901ebc0f9aae" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 8
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "668eb6fabcb2016",
+      "uid" : "b7b7ea1d74b2a13",
       "status" : "broken",
       "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "time" : {
-        "start" : 1579675823129,
-        "stop" : 1579675823175,
-        "duration" : 46
+        "start" : 1579676331979,
+        "stop" : 1579676332011,
+        "duration" : 32
       }
-    }, {
-      "uid" : "a5a068162265fe9c",
+    } ]
+  },
+  "854110b638328ccf771e0ab42e204b5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df29eba48d383a2",
       "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
+      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
       "time" : {
-        "start" : 1579675476836,
-        "stop" : 1579675476863,
-        "duration" : 27
-      }
-    }, {
-      "uid" : "208eb90fa28ed192",
-      "status" : "broken",
-      "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-      "time" : {
-        "start" : 1579675279061,
-        "stop" : 1579675279112,
-        "duration" : 51
-      }
-    }, {
-      "uid" : "18f30a4163552424",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579619217139,
-        "stop" : 1579619217848,
-        "duration" : 709
-      }
-    }, {
-      "uid" : "626981ec1ba9de3f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579618471161,
-        "stop" : 1579618471838,
-        "duration" : 677
+        "start" : 1579676330740,
+        "stop" : 1579676331838,
+        "duration" : 1098
       }
     } ]
   }

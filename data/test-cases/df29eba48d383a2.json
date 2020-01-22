@@ -1,12 +1,12 @@
 {
-  "uid" : "5b67dfbf50f61e93",
+  "uid" : "df29eba48d383a2",
   "name" : "test",
   "fullName" : "com.test.qabattle.FirstTest.test",
   "historyId" : "854110b638328ccf771e0ab42e204b5b",
   "time" : {
-    "start" : 1579675821980,
-    "stop" : 1579675822975,
-    "duration" : 995
+    "start" : 1579676330740,
+    "stop" : 1579676331838,
+    "duration" : 1098
   },
   "status" : "broken",
   "statusMessage" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1579675821894,
-      "stop" : 1579675821916,
-      "duration" : 22
+      "start" : 1579676330588,
+      "stop" : 1579676330612,
+      "duration" : 24
     },
     "description" : "",
     "status" : "passed",
@@ -37,9 +37,9 @@
     "steps" : [ {
       "name" : "$(open) http://qabattle:8080/",
       "time" : {
-        "start" : 1579675822030,
-        "stop" : 1579675822945,
-        "duration" : 915
+        "start" : 1579676330798,
+        "stop" : 1579676331823,
+        "duration" : 1025
       },
       "status" : "broken",
       "statusMessage" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
@@ -47,9 +47,9 @@
       "steps" : [ {
         "name" : "RemoteDriver error: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az95', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
         "time" : {
-          "start" : 1579675822933,
-          "stop" : 1579675822933,
-          "duration" : 0
+          "start" : 1579676331816,
+          "stop" : 1579676331817,
+          "duration" : 1
         },
         "status" : "failed",
         "steps" : [ ],
@@ -98,7 +98,7 @@
     "value" : "fv-az95"
   }, {
     "name" : "thread",
-    "value" : "3968@fv-az95.main(1)"
+    "value" : "3188@fv-az95.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -121,61 +121,8 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 3,
-        "skipped" : 0,
-        "passed" : 5,
-        "unknown" : 0,
-        "total" : 8
-      },
-      "items" : [ {
-        "uid" : "ddc48536d55a557",
-        "status" : "broken",
-        "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az59', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-        "time" : {
-          "start" : 1579675475627,
-          "stop" : 1579675476712,
-          "duration" : 1085
-        }
-      }, {
-        "uid" : "b99e73d396f494c7",
-        "status" : "broken",
-        "statusDetails" : "org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az50', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-1028-azure', java.version: '1.8.0_242'\nDriver info: driver.version: SelenideDriver",
-        "time" : {
-          "start" : 1579675277822,
-          "stop" : 1579675278906,
-          "duration" : 1084
-        }
-      }, {
-        "uid" : "f586750c3ca048c6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1579619209374,
-          "stop" : 1579619217020,
-          "duration" : 7646
-        }
-      }, {
-        "uid" : "2212c38aaab13e1f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1579618450478,
-          "stop" : 1579618471055,
-          "duration" : 20577
-        }
-      }, {
-        "uid" : "aaf06c88ccd05683",
-        "status" : "passed",
-        "time" : {
-          "start" : 1579617746946,
-          "stop" : 1579617754105,
-          "duration" : 7159
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "5b67dfbf50f61e93.json",
+  "source" : "df29eba48d383a2.json",
   "parameterValues" : [ ]
 }

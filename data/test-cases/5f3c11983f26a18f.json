@@ -1,0 +1,624 @@
+{
+  "uid" : "5f3c11983f26a18f",
+  "name" : "Валидация вложенных статей",
+  "fullName" : "com.test.qabattle.tests.ArticlesTest.mainPageArticlesTest",
+  "historyId" : "a5590f2ba3dc02ab7475e4ca60e56a99",
+  "time" : {
+    "start" : 1580269197941,
+    "stop" : 1580269199175,
+    "duration" : 1234
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1580269174181,
+      "stop" : 1580269174199,
+      "duration" : 18
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1580269195367,
+      "stop" : 1580269197929,
+      "duration" : 2562
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу логина",
+      "time" : {
+        "start" : 1580269195368,
+        "stop" : 1580269197901,
+        "duration" : 2533
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://qabattle:8080/index.html",
+        "time" : {
+          "start" : 1580269195368,
+          "stop" : 1580269197900,
+          "duration" : 2532
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация через cookies",
+      "time" : {
+        "start" : 1580269197901,
+        "stop" : 1580269197928,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Advertisers')) click()",
+      "time" : {
+        "start" : 1580269197941,
+        "stop" : 1580269198240,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1580269197942,
+          "stop" : 1580269198141,
+          "duration" : 199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Advertisers')) parent()",
+      "time" : {
+        "start" : 1580269198240,
+        "stop" : 1580269198240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) $$(button.tree-button)",
+      "time" : {
+        "start" : 1580269198240,
+        "stop" : 1580269198240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button) should have(size(2))",
+      "time" : {
+        "start" : 1580269198246,
+        "stop" : 1580269198331,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1580269198246,
+          "stop" : 1580269198331,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1580269198246,
+            "stop" : 1580269198279,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button) should have(Exact texts [Test Advertiser, Adidas])",
+      "time" : {
+        "start" : 1580269198332,
+        "stop" : 1580269198419,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1580269198332,
+          "stop" : 1580269198385,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1580269198332,
+            "stop" : 1580269198353,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Publishers')) click()",
+      "time" : {
+        "start" : 1580269198419,
+        "stop" : 1580269198580,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1580269198419,
+          "stop" : 1580269198444,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Publishers')) parent()",
+      "time" : {
+        "start" : 1580269198580,
+        "stop" : 1580269198581,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) $$(button.tree-button)",
+      "time" : {
+        "start" : 1580269198581,
+        "stop" : 1580269198581,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button) should have(size(2))",
+      "time" : {
+        "start" : 1580269198581,
+        "stop" : 1580269198661,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1580269198581,
+          "stop" : 1580269198661,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1580269198581,
+            "stop" : 1580269198602,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button) should have(Exact texts [Youtube, Instagram])",
+      "time" : {
+        "start" : 1580269198661,
+        "stop" : 1580269198749,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1580269198661,
+          "stop" : 1580269198723,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1580269198661,
+            "stop" : 1580269198685,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Top level clients')) click()",
+      "time" : {
+        "start" : 1580269198750,
+        "stop" : 1580269198872,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+        "time" : {
+          "start" : 1580269198750,
+          "stop" : 1580269198768,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(.card-body/button.tree-main-button.findBy(exact text 'Top level clients')) parent()",
+      "time" : {
+        "start" : 1580269198872,
+        "stop" : 1580269198872,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ..) $$(button.tree-button)",
+      "time" : {
+        "start" : 1580269198872,
+        "stop" : 1580269198872,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button) should have(size(10))",
+      "time" : {
+        "start" : 1580269198872,
+        "stop" : 1580269198966,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1580269198872,
+          "stop" : 1580269198966,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1580269198872,
+            "stop" : 1580269198892,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(By.xpath: ../button.tree-button) should have(Exact texts [Jon Snow, Artur Fleck, Tim Cook, Bugs Bunny, Sasha Grey, You, Leonel Messi, Tony Stark, Elon Musk, Darth Vader])",
+      "time" : {
+        "start" : 1580269198966,
+        "stop" : 1580269199174,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: ..) find elements(By.cssSelector: button.tree-button)",
+        "time" : {
+          "start" : 1580269198966,
+          "stop" : 1580269199045,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(.card-body) find elements(By.cssSelector: button.tree-main-button)",
+          "time" : {
+            "start" : 1580269198966,
+            "stop" : 1580269198995,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 30,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1580269199177,
+      "stop" : 1580269199612,
+      "duration" : 435
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d24c1ecf8420c677",
+      "name" : "Screenshot",
+      "source" : "d24c1ecf8420c677.png",
+      "type" : "image/png",
+      "size" : 362843
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "mainPageArticlesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.test.qabattle.tests.ArticlesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az88"
+  }, {
+    "name" : "thread",
+    "value" : "4289@fv-az88.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Главная страница"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f3c11983f26a18f.json",
+  "parameterValues" : [ ]
+}
